@@ -20,7 +20,7 @@
 
 	$(function () {
 		cout = 0;
-		wordArray = ["Scroll down to select language", "向下滾動以選擇語言"];
+		wordArray = ["Select language", "選擇語言"];
 		setInterval(function () {
 			cout++;
 			$("#selec").fadeOut(500, function () {
