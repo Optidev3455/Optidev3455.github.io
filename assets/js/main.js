@@ -3,6 +3,27 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+$(function () {
+	count = 0;
+	wordsArray = ["選擇語言", "SELECT LANGUAGE"];
+	setInterval(function () {
+		count++;
+		$("#selec").fadeOut(500, function () {
+			$(this).text(wordsArray[count % wordsArray.length]).fadeIn(500);
+		});
+	}, 5000);
+});
+
+$(function () {
+	cout = 0;
+	wordArray = ["首頁", "HOME"];
+	setInterval(function () {
+		cout++;
+		$("#word").fadeOut(500, function () {
+			$(this).text(wordArray[cout % wordArray.length]).fadeIn(500);
+		});
+	}, 5000);
+});
 
 (function ($) {
 

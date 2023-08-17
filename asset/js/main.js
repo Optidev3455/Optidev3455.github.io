@@ -29,29 +29,6 @@
 		}, 5000);
 	});
 
-	$(function () {
-		cout1 = 0;
-		wordArray1 = ["Click the white circle to see the about page", "點擊白色圓圈查看關於頁面"];
-		setInterval(function () {
-			cout1++;
-			$("#selc").fadeOut(500, function () {
-				$(this).text(wordArray1[cout1 % wordArray1.length]).fadeIn(500);
-			});
-		}, 5000);
-	});
-
-	$(function () {
-		cout2 = 0;
-		wordArray2 = ["選擇語言後，您將跳轉到另一個頁面。如果需要，您可以隨時返回本頁。",
-			"You will be redirected to another page after you've selected your language. You can always return to this page if you want to."];
-		setInterval(function () {
-			cout2++;
-			$("#warning").fadeOut(500, function () {
-				$(this).text(wordArray2[cout2 % wordArray2.length]).fadeIn(500);
-			});
-		}, 15000);
-	});
-
 	var $window = $(window),
 		$body = $('body');
 
