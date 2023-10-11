@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>WWS Computer Club - C++ Basic Syntax</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../../../../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../../../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../../../../img/about_2_Z4C_icon.ico">
+</head>
+
+<body>
+
+    <style>
+        .center {
+            text-align: center;
+        }
+    </style>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-primary sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                <a href="../../../../ind" class="navbar-brand">
+                    <h1 class="text-white fw-bold d-block">Computer <span class="text-secondary">Club</span> </h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                        <a href="../../../../index" class="nav-item nav-link">Home</a>
+                        <a href="../../../projects/project" class="nav-item nav-link">Repository</a>
+                        <a href="../../../challenge/challenge" class="nav-item nav-link">Challenges</a>
+                        <!--<a href="../../quiz/quiz" class="nav-item nav-link">Quizzes</a>-->
+                        <a href="../../../contact/contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="../img/bg.jpg" class="img-fluid" alt="First slide">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h1 class="display-2 text-white mb-4 animated slideInDown">Basic Syntax</h1>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item"><a href="../../../../index" class="text-white"
+                                        style="text-decoration: underline;"><i class="fas fa-home"></i> Home</a>
+                                </li>
+                                <li class="breadcrumb-item"><a href="../../../projects/project" class="text-white"
+                                        style="text-decoration: underline;">Repository</a></li>
+                                <li class="breadcrumb-item" aria-current="page">Code Java</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Intro Start -->
+    <div class="container-fluid py-5 my-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+            </div>
+            <div class=" wow fadeIn" data-wow-delay=".5s">
+                <h6>Type: <span class="tag tag-blue">misc</span> <span class="tag tag-gold">code</span></h6>
+                <br>
+                <h1 style="text-decoration: underline;" class="center">Basic Java Syntax</h1>
+                <br>
+                <h5 class="mb-4">Before we start, we'll create a java file called <code>Main.java</code> To write the
+                    codes here.</h5>
+                <h2 style="text-decoration: underline;" class="center">Comments</h2>
+                <h5 class="mb-4">The <code>//</code> symbol is used to create a single-line comment in
+                    Java and <code>/* */</code> is used to make a multi-line comment. <br>Comments will be ignored by
+                    the compiler during compilation, but it is
+                    a great way of making notes or documenting your code.</h5>
+                <h2 style="text-decoration: underline;" class="center">Print Line</h2>
+                <h5 class="mb-4">
+                    Java's method of printing a line is quite interesting. All code in Java <span
+                        class="text-info">MUST</span> be inside a class. To start, we'll create a
+                    class with the name Main because the file name we've created is called <code>Main.java</code> and it
+                    is
+                    required due to it being a <code>public</code> method.
+                </h5>
+                <div class="codeheader" id="codeheader_windows">Initializing the class</div>
+                <div id="codebox">
+                    <pre><code><span class="libh">public class</span> Main {
+<span class="comment">// This must be the same as your file name.</span>
+<span class="comment">/* The above is a single-line comment and
+this is a multi-line comment. */</span>
+}</code></pre>
+                </div>
+                <br><br>
+                <h5 class="mb-4">After that we'll create another line using the <code>public static void</code> method.
+                    And it will be called <code>main()</code>. The main method is required as it tells the compiler
+                    a.k.a. JVM (Java Virtual Machine) that this is the entry point of your code. Then inside the
+                    brackets
+                    we'll add <code>String[] args</code>.
+                </h5>
+                <div class="codeheader" id="codeheader_windows">Initializing the main method</div>
+                <div id="codebox">
+                    <pre><code><span class="libh">public class</span> Main {
+    <span class="libh">public static void</span> <span class="data">main</span>(String[] args) {
+
+    }
+}</code></pre>
+                </div>
+                <br><br>
+                <h5 class="mb-4">Now I'll explain what we've just done. <br><br><code>public</code> is an access
+                    modifier in Java and everything in it (e.g. classes, variables) can be accessed throughout the
+                    entire file a.k.a global value. We're using it together with the <code>class</code> because
+                    throughout the entire class we'll be only using the <code>public</code> method.<br><br>
+                    <code>static</code> is a keywork used for memory management which saves memory(RAM) during
+                    compilation.
+                    <code>static</code> can also be used as a variable. <br><br>
+                    <code>void</code> is also a keyword used to specify a method to not return anything. Becuase the
+                    main
+                    method does not return anything so we'll use the <code>void</code> keyword to tell the JVM to
+                    terminate
+                    the code after it has run everything inside the main method. <br><br>
+                    <code>String[] args</code> is a string array which arguments are passed here. It is a command-line
+                    argument
+                    for java.lang.String class. The array is only the square brackets <code>[]</code> so you can call
+                    args whatever you want. <br><br>
+                    To print a line in Java, we'll type <code>System.out.println</code> followed by a bracket. <br><br>
+                    <code>System.out</code> is the out put stream in Java which is usually followed by
+                    <code>println</code>(Print Line) to print something. <br>
+                    All statements in Java <span class="text-info">MUST</span> end with a semi colon <code>;</code> to
+                    tell
+                    the JVM that the statement terminates here.
+                </h5>
+                <div class="codeheader" id="codeheader_windows">Print line in Java</div>
+                <div id="codebox">
+                    <pre><code><span class="libh">public class</span> Main {
+    <span class="libh">public static void</span> <span class="data">main</span>(String[] args) {
+        System.<span class="rtr">out</span>.println(<span style="color: lightgreen;">"Hello World"</span>);
+        <span class="comment">/* You can use the print line statement 
+        without double quotes to print numbers or do calculations */</span>
+        System.<span class="rtr">out</span>.println(<span class="data">50</span> + <span class="data">50</span>);
+    }
+}</code></pre>
+                </div>
+                <br><br>
+                <br>
+                <h2 style="text-decoration: underline;" class="center">Basic Data Types</h2>
+                <br>
+                <br>
+                <h3>Characters Based:</h3>
+                <br>
+                <h5 class="mb-4">
+                    <code>String</code> stores a string value which is a sequence of characters. <br>
+                    Size in memory if empty: <span class="text-info">40 bytes</span><br>
+                    example:
+                </h5>
+                <div class="codeheader" id="codeheader_windows">String Data Type</div>
+                <div id="codebox">
+                    <pre><code><span class="comment">// Assigning a String variable</span>
+String <span class="func">i</span> = <span style="color: lightgreen;">"Hello World"</span>;
+<span class="comment">// Variable i now stores a String value of Hello World</span>
+</code></pre>
+                </div><br><br>
+                <h5 class="mb-4">
+                    <code>char</code> stores a single character which can be in ASCII format.<br>
+                    Size in memory if empty: <span class="text-info">2 bytes</span><br>
+                    example:
+                </h5>
+                <div class="codeheader" id="codeheader_windows">char Data Type</div>
+                <div id="codebox">
+                    <pre><code><span class="comment">// Assigning a char variable</span>
+<span class="libh">char</span> <span class="func">i</span> = <span style="color: lightgreen;">'A'</span>;
+<span class="comment">// Variable i now stores the character A</span>
+</code></pre>
+                </div>
+                <br><br>
+                <h3>Numeric Based:</h3>
+                <br>
+                <h5 class="mb-4">
+                    <code>int</code>, <code>byte</code>, <code>short</code>, <code>long</code> stores an integer value
+                    and <a class="text-danger">CANNOT</a> store
+                    any decimal values. <br>
+                    example:
+                </h5>
+                <div class="codeheader" id="codeheader_windows">int, byte, short and long Data Types</div>
+                <div id="codebox">
+                    <pre><code><span class="comment">// Assigning a int, byte, short and long variable</span>
+<span class="libh">int</span> <span class="func">i</span> = <span class="data">50</span>;
+<span class="libh">byte</span> <span class="func">x</span> = <span class="data">50</span>;
+<span class="libh">short</span> <span class="func">y</span> = <span class="data">50</span>;
+<span class="libh">long</span> <span class="func">z</span> = <span class="data">50</span>;
+<span class="comment">// All Variable now stores the numeric value of 50
+/* 
+int can store numbers from -2,147,483,647 to 2,147,483,647
+byte can store numbers from -128 to 127
+short can store numbers from -32,768 to 32,767
+long can store number from -9,223,372,036,854,775,808 
+to 9,223,372,036,854,775,807
+*/</span>
+</code></pre>
+                </div>
+                <h5>
+                    <br><br>
+                    <code>float</code>, <code>double</code> stores a floating point value and <a
+                        class="text-success">CAN</a> store
+                    decimal values.<br>
+                    example:
+                </h5><br>
+                <div class="codeheader" id="codeheader_windows">float and double Data Type</div>
+                <div id="codebox">
+                    <pre><code><span class="comment">// Assigning float and double variable</span>
+<span class="libh">float</span> <span class="func">i</span> = <span class="data">50.5</span>;
+<span class="libh">double</span> <span class="func">x</span> = <span class="data">50.5</span>;
+<span class="comment">// All Variable now stores the floating point value of 50.5</span>
+</code></pre>
+                </div>
+                <h5>
+                    <br><br>
+                    <h3>Boolean Based:</h3>
+                    <h5 class="mb-4">
+                        <h5>
+                            <code>boolean</code> stores a true or false value.<br>
+                            example:
+                        </h5><br>
+                        <div class="codeheader" id="codeheader_windows">Bool Data Type</div>
+                        <div id="codebox">
+                            <pre><code><span class="libh">boolean</span> <span class="func">a</span> = <span class="libh">true</span>;
+<span class="libh">boolean</span> <span class="func">b</span> = <span class="lbih">false</span>;
+<span class="libh">boolean</span> <span class="func">c</span> = <span class="lbih">50</span>;
+<span class="libh">boolean</span> <span class="func">d</span> = <span class="lbih">50</span>;<span class="comment">
+/* 
+Variable a now stores a boolean value of 1 or true
+Variable b now stores a boolean value of 0 or false
+Variable c now stores a boolean value of 1 or true
+Variable d now stores a boolean value of 0 or false
+Because boolean value is only 1 or 0, values higher than 1
+will be stored as 1. So variable e now stores a 
+boolean value of 1 or true 
+*/</span></code></pre>
+                        </div><br><br>
+                        <h2 style="text-decoration: underline;" class="center">Operators</h2>
+                        <h5 class="mb-4"><code>+</code> Addition <br>
+                            example: 1 + 1 = 2<br><br>
+                            <code>-</code> Subtraction <br> example: 2 - 1 =
+                            1<br><br>
+                            <code>*</code> Multiplication <br> example: 2 * 2 = 4 <br><br>
+                            <code>%</code> Modulus <br>example: 4 % 3 =
+                            1 (The remainder of 4 / 3) <br><br>
+                            <code>/</code> Division <br>example: 50 // 10 = 5<br><br>
+                            <code>(variable)++</code> Increment <br>example: Increase the value
+                            of the variable by 1.<br><br>
+                            <code>(variable)--</code> Decrement <br>example: Decrease the value 
+                            of the variable by 1.<br><br>
+                            All Operators can be use with a <code>=</code> assignment operator to directly
+                            assign a value to the corresponding variable.
+                        </h5>
+                        <br><br><br><br><br>
+                        <h3 class="text-primary center">You have finished the <a class="text-info">Basic Java
+                                Syntax</a>!
+                            <br><br><br>
+                            <h4 class="center">Still confused by some of them?<br>Ask us for help <a
+                                    href="../../../contact/contact" class="link"
+                                    style="text-decoration: underline;">here</a></h4>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Intro End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+        <div class="container pt-5 pb-4">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <a href="../../../../index">
+                        <h1 class="text-white fw-bold d-block">Computer <span class="text-secondary">Club</span>
+                        </h1>
+                    </a>
+                    <p class="mt-4 text-light">Transforming the future, one innovation at a time.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#" class="h3 text-secondary">Short Link</a>
+                    <div class="mt-4 d-flex flex-column short-link">
+                        <a href="../../../projects/project" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Code
+                            repositories</a>
+                        <a href="../../../contact/contact" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Contact
+                            us</a>
+                        <a href="https://github.com/Optidev3455" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Github
+                            repository</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <a href="#" class="h3 text-secondary">Contact Us</a>
+                    <div class="text-white">
+                        <a class="py-3 text-light border-bottom border-primary"
+                            href="mailto:wws_computerclub@gmail.com"><i class="fas fa-envelope text-secondary me-2"></i>
+                            wws_computerclub@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-light mt-5 mb-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <span class="text-light"><a href="https://github.com/Optidev3455" class="text-secondary"><i
+                                class="fas fa-copyright text-secondary me-2"></i>Optidev3455</a>, All rights
+                        reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <span class="text-light">Designed By <a href="https://htmlcodex.com" class="text-secondary">HTML
+                            Codex</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <!--<a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>-->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../../lib/wow/wow.min.js"></script>
+    <script src="../../../../lib/easing/easing.min.js"></script>
+    <script src="../../../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../../../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../../../../js/main.js"></script>
+</body>
+
+</html>
