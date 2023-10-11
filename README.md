@@ -1,2 +1,2 @@
 # The CPII website is now offline indefinitely
-And will be soon be intergrated to the new computer club website.
+# Now hosting 2023-2024 YCHWWSSS Computer Club
