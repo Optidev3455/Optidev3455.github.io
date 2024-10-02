@@ -1,2 +1,1 @@
-# The CPII website is now offline indefinitely
-# Now hosting 2023-2024 YCHWWSSS Computer Club
+# Official Website for WWS 2024-2025 Computer Club
