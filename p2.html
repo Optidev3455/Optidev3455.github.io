@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>WWS Computer Club - P2</title>
+</head>
+
+<body>
+
+    <div id="preload">
+        <!-- Head Display Start -->
+        <div class="bg half">
+
+            <!-- Sticky Navbar Desktop Only Start -->
+            <div class="header sticky">
+                <a href="index.html" class="logo" id="fadeOutLink">Computer Club</a>
+                <nav class="navBar">
+                    <div class="wrapper">
+                        <a href="index.html" id="fadeOutLink">HOME</a><!--     // Required to remove excess spacing between elements
+                    --><a href="post.html" id="fadeOutLink">POSTS</a><!--
+                    --><a href="https://intra.ychwwsss.edu.hk/home/eService/enrollment/">SCHEDULE</a><!--
+                    --><a href="https://github.com/Optidev3455/CC2425">PROJECTS</a>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Sticky Navbar Desktop Only End -->
+            <div class="start-txt">
+                <h1>HTML Basics</h1>
+            </div>
+        </div>
+        <!-- Head Display End -->
+
+        <!-- Burger Menu Mobile Only Start-->
+        <div id="burger" class="sticky">
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="fadeOutLink">HOME</a></li>
+                    <li><a href="post.html" id="fadeOutLink">POSTS</a></li>
+                    <li><a href="https://intra.ychwwsss.edu.hk/home/eService/enrollment/">SCHEDULE</a></li>
+                    <li><a href="https://github.com/Optidev3455/CC2425">PROJECTS</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="burger-btn" class="sticky">
+            <i class="fa-solid fa-bars fa-xl" id="menu"></i>
+        </div>
+        <!-- Burger Menu End -->
+
+        <!-- Post Start -->
+
+        <!-- Using already made css cuz im lazy -->
+        <div id="todo">
+            <div class="title-txt">
+                <p>
+                    <i class="fa-regular fa-calendar-days"></i> 3-10-2024
+                </p>
+                <h1>Fundamentals of HTML</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <h1>TL;DR</h1>
+                    <div class="feature-desc">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="feature-txt">
+                            <p>
+                                Heading, Paragraph, Image, Div, Anchor, Unordered List,
+                                Ordered List HTML elements etc.
+                            </p>
+                        </div>
+                    </div>
+                    <h1>Overview</h1>
+                    <div class="feature-desc">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="feature-txt">
+                            <p>
+                                The most commonly used elements in HTML: Heading, Paragraph, Image, Div, Anchor, Unordered List, Ordered List etc.
+                            </p>
+                        </div>
+                    </div>
+                    <h1>Links</h1>
+                    <div class="feature-desc">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+                        <div class="feature-txt">
+                            <p>
+                                Learn more about HTML:
+                                <a href="https://www.w3schools.com/html/" class="link">
+                                    W3Schools
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>.
+                                <br>
+                                Mozilla Developer Reference:
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="link">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/post2.png" style="width: 50%;">
+                </div>
+            </div>
+            <div class="br-l"></div>
+            <div class="title-txt">
+                <h1>Heading Element</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The &#60;h1&#62; to &#60;h6&#62; HTML elements represent six levels of section headings.
+                            </p>
+                            <br>
+                            <p>
+                                &#60;h1&#62; is the highest section level and &#60;h6&#62; is the lowest.
+                            </p>
+                            <br>
+                            <p>
+                                By default, all heading elements create a block-level box in the layout,
+                                starting on a new line and taking up the full width available in their containing block.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a
+                                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P2-1.png">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Paragraph Element</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The &#60;p&#62; HTML element represents a paragraph.
+                            </p>
+                            <br>
+                            <p>
+                                Paragraphs are usually represented in visual media as blocks of text separated from
+                                adjacent blocks by blank lines and/or first-line indentation,
+                                but HTML paragraphs can be any structural grouping of related content, such as images or
+                                form fields.
+                            </p>
+                            <br>
+                            <p>
+                                Paragraphs are block-level elements, and notably will automatically close if another
+                                block-level element is parsed before the closing &#60;/p&#62; tag.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P2-2.png">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Image Element</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The &#60;img&#62; HTML element embeds an image into the document.
+                            </p>
+                            <br>
+                            <p>
+                                The <span style="color: #ff5555;">src</span> attribute is required, and contains the path to the image you want to embed.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P2-3.png">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Content Division Element</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The &#60;div&#62; HTML element is the generic container for flow content. 
+                            </p>
+                            <br>
+                            <p>
+                                It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P2-4.png">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Anchor Element</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The &#60;a&#62; HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, 
+                                files, email addresses, locations in the same page, or anything else a URL can address.
+                            </p>
+                            <br>
+                            <p>
+                                Content within each &#60;a&#62; should indicate the link's destination. 
+                                    If the href attribute is present, pressing the enter key while focused on the &#60;a&#62; element will activate it.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P2-5.png">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Unordered List Element</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The &#60;ul&#62; HTML element represents an unordered list of items, typically rendered as a bulleted list.
+                            </p>
+                            <br>
+                            <p>
+                                You can nest a &#60;li&#62;(List Element) to create a hollow bulleted list.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P2-6.png">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Ordered List Element</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The &#60;ul&#62; HTML element represents an unordered list of items, typically rendered as a bulleted list.
+                            </p>
+                            <br>
+                            <p>
+                                You can nest a &#60;li&#62;(List Element) to create a hollow bulleted list.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P2-7.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Post End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Meeting Time</h1>
+                <p>
+                    Every two Thursdays -
+                    Lunch Recess at MMLC
+                </p>
+            </div>
+            <div class="footer-right">
+                <h1>Contact Us</h1>
+                <a>Classrooms: 5A (Room 501), 5C (Room 503)</a>
+                <br>
+                <a>Email:</a>
+                <a href="mailto:2425wwscc@gmail.com" class="link">
+                    2425wwscc@gmail.com
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/Optidev3455"><i class="fa-brands fa-github"></i></a>
+            <p>&copy; Optidev3455 All Rights Reserved.</p>
+        </div>
+    </div>
+    <!-- Footer End -->
+    </div>
+</body>
+
+<script src="script.js"></script>
+<script src="animate.js"></script>
+
+</html>
