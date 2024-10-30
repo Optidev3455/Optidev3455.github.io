@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <title>WWS Computer Club - P2</title>
+    <title>WWS Computer Club - P3</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
 
             <!-- Sticky Navbar Desktop Only End -->
             <div class="start-txt">
-                <h1>HTML Basics</h1>
+                <h1>CSS Basics</h1>
             </div>
         </div>
         <!-- Head Display End -->
@@ -59,9 +59,9 @@
         <div id="todo">
             <div class="title-txt">
                 <p>
-                    <i class="fa-regular fa-calendar-days"></i> 3-10-2024
+                    <i class="fa-regular fa-calendar-days"></i> 31-10-2024
                 </p>
-                <h1>Fundamentals of HTML</h1>
+                <h1>Fundamentals of CSS</h1>
             </div>
             <div class="feature-container">
                 <div class="features">
@@ -72,8 +72,7 @@
                         </div>
                         <div class="feature-txt">
                             <p>
-                                Heading, Paragraph, Image, Div, Anchor, Unordered List,
-                                Ordered List HTML elements etc.
+                                Background color, text color, font family, font size, image height/width
                             </p>
                         </div>
                     </div>
@@ -84,7 +83,7 @@
                         </div>
                         <div class="feature-txt">
                             <p>
-                                The most commonly used elements in HTML: Heading, Paragraph, Image, Div, Anchor, Unordered List, Ordered List etc.
+                                The most common styling methods in websites: Background color, text color, font family, font size, image height/width etc.
                             </p>
                         </div>
                     </div>
@@ -95,48 +94,57 @@
                         </div>
                         <div class="feature-txt">
                             <p>
-                                Learn more about HTML:
-                                <a href="https://www.w3schools.com/html/" class="link">
+                                Learn more about CSS:
+                                <a href="https://www.w3schools.com/css/" class="link">
                                     W3Schools
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                 </a>.
                                 <br>
                                 Mozilla Developer Reference:
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="link">
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="link">
                                     Mozilla
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>.
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> 
+                                </a>.
+                                <br>
+                                Google Fonts API:
+                                <a href="https://fonts.google.com/" class="link">
+                                    Google Fonts
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="feature-img">
-                    <img src="img/post2.png" style="width: 50%;">
+                    <img src="img/post3.png" style="width: 50%;">
                 </div>
             </div>
             <div class="br-l"></div>
             <div class="title-txt">
-                <h1>Heading Element</h1>
+                <h1>Background color</h1>
             </div>
             <div class="feature-container">
                 <div class="features">
                     <div class="feature-desc">
                         <div class="feature-txt">
                             <p>
-                                The <span class="point">&#60;h1&#62;</span> to <span class="point">&#60;h6&#62;</span> HTML elements represent six levels of section headings.
+                                The <span class="point">background-color</span> CSS property sets the background color of an element.
                             </p>
                             <br>
                             <p>
-                                <span class="point">&#60;h1&#62;</span> is the highest section level and <span class="point">&#60;h6&#62;</span> is the lowest.
+                                You <span class="point">must</span> assign a color to the <span class="point">background-color</span> in order to use it.
                             </p>
                             <br>
                             <p>
-                                By default, all heading elements create a block-level box in the layout,
-                                starting on a new line and taking up the full width available in their containing block.
+                                You can use a <span class="point">Keyword value</span>, 
+                                <span class="point">Hexadecimal value</span>, 
+                                <span class="point">RGB value</span> or
+                                <span class="point">HSL value</span> to assign a color to it.
                             </p>
                             <br>
                             <p style="font-size: 12px;">
                                 Credits: <a
-                                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+                                    href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color"
                                     class="link" style="font-size: 12px;">
                                     Mozilla
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
@@ -145,31 +153,34 @@
                     </div>
                 </div>
                 <div class="feature-img">
-                    <img src="img/P2-1.png">
+                    <img src="img/P3-1.png">
                 </div>
             </div>
             <div class="br-s"></div>
             <div class="title-txt">
-                <h1>Paragraph Element</h1>
+                <h1>Text color</h1>
             </div>
             <div class="feature-container">
                 <div class="features">
                     <div class="feature-desc">
                         <div class="feature-txt">
                             <p>
-                                The <span class="point">&#60;p&#62;</span> HTML element represents a paragraph.
+                                
                             </p>
                             <br>
                             <p>
-                                Paragraphs are usually represented in visual media as blocks of text separated from
-                                adjacent blocks by blank lines and/or first-line indentation,
-                                but HTML paragraphs can be any structural grouping of related content, such as images or
-                                form fields.
+                                The <span class="point">color</span> CSS property sets the foreground color value of an element's text and text decorations
                             </p>
                             <br>
                             <p>
-                                Paragraphs are block-level elements, and notably will automatically close if another
-                                block-level element is parsed before the closing <span class="point">&#60;/p&#62;</span> tag.
+                                You <span class="point">must</span> assign a color to the <span class="point">color</span> in order to use it.
+                            </p>
+                            <br>
+                            <p>
+                                You can use a <span class="point">Keyword value (e.g. )</span>, 
+                                <span class="point">Hexadecimal value</span>, 
+                                <span class="point">RGB value</span> or
+                                <span class="point">HSL value</span> to assign a color to it.
                             </p>
                             <br>
                             <p style="font-size: 12px;">
@@ -178,91 +189,63 @@
                                     Mozilla
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                             </p>
+                            <p style="font-size: 12px; padding-top: 5px;">The following preview is a continuation of the previous point.</p>
                         </div>
                     </div>
                 </div>
                 <div class="feature-img">
-                    <img src="img/P2-2.png">
+                    <img src="img/P3-2.png">
                 </div>
             </div>
             <div class="br-s"></div>
             <div class="title-txt">
-                <h1>Image Element</h1>
+                <h1>Font Family</h1>
             </div>
             <div class="feature-container">
                 <div class="features">
                     <div class="feature-desc">
                         <div class="feature-txt">
                             <p>
-                                The <span class="point">&#60;img&#62;</span> HTML element embeds an image into the document.
+                                The <span class="point">font-family</span> CSS property sets the font that a element uses.
                             </p>
                             <br>
                             <p>
-                                The <span class="point">src</span> attribute is required, and contains the path to the image you want to embed.
+                                You can use a <span class="point">font on your computer</span>, a 
+                                <span class="point">.ttf(True Type Font) file </span>or from an 
+                                <span class="point">API(Application Programming Interface)</span>.
                             </p>
                             <br>
                             <p style="font-size: 12px;">
-                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"
+                                Font: <a href="https://fonts.google.com/specimen/Raleway"
                                     class="link" style="font-size: 12px;">
-                                    Mozilla
+                                    Raleway
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="feature-img">
-                    <img src="img/P2-3.png">
+                    <img src="img/P3-3.png">
                 </div>
             </div>
             <div class="br-s"></div>
             <div class="title-txt">
-                <h1>Content Division Element</h1>
+                <h1>Font size</h1>
             </div>
             <div class="feature-container">
                 <div class="features">
                     <div class="feature-desc">
                         <div class="feature-txt">
                             <p>
-                                The <span class="point">&#60;div&#62;</span> HTML element is the generic container for flow content. 
+                                The <span class="point">font-size</span> CSS property sets the size of the font. 
                             </p>
                             <br>
                             <p>
-                                It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
+                                You <span class="point">must</span> assign a value to <span class="point">font-size</span> in order change the font size.
                             </p>
                             <br>
                             <p style="font-size: 12px;">
-                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div"
-                                    class="link" style="font-size: 12px;">
-                                    Mozilla
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="feature-img">
-                    <img src="img/P2-4.png">
-                </div>
-            </div>
-            <div class="br-s"></div>
-            <div class="title-txt">
-                <h1>Anchor Element</h1>
-            </div>
-            <div class="feature-container">
-                <div class="features">
-                    <div class="feature-desc">
-                        <div class="feature-txt">
-                            <p>
-                                The <span class="point">&#60;a&#62;</span> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, 
-                                files, email addresses, locations in the same page, or anything else a URL can address.
-                            </p>
-                            <br>
-                            <p>
-                                Content within each <span class="point">&#60;a&#62;</span> should indicate the link's destination. 
-                                    If the href attribute is present, pressing the enter key while focused on the <span class="point">&#60;a&#62;</span> element will activate it.
-                            </p>
-                            <br>
-                            <p style="font-size: 12px;">
-                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size"
                                     class="link" style="font-size: 12px;">
                                     Mozilla
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
@@ -271,65 +254,37 @@
                     </div>
                 </div>
                 <div class="feature-img">
-                    <img src="img/P2-5.png">
+                    <img src="img/P3-4.png">
                 </div>
             </div>
             <div class="br-s"></div>
             <div class="title-txt">
-                <h1>Unordered List Element</h1>
+                <h1>Image Size</h1>
             </div>
             <div class="feature-container">
                 <div class="features">
                     <div class="feature-desc">
                         <div class="feature-txt">
                             <p>
-                                The <span class="point">&#60;ul&#62;</span> HTML element represents an unordered list of items, typically rendered as a bulleted list.
+                                The <span class="point">width</span> and <span class="point">height</span> CSS property sets the size of a image. 
                             </p>
                             <br>
                             <p>
-                                You can nest a <span class="point">&#60;li&#62;</span>(List Element) to create a hollow bulleted list.
+                                You <span class="point">must</span> assign a value to <span class="point">both width</span> and <span class="point">height</span> 
+                                in order change the image size.
                             </p>
                             <br>
                             <p style="font-size: 12px;">
-                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"
+                                Reference: <a href="https://www.w3schools.com/tags/att_img_width.asp"
                                     class="link" style="font-size: 12px;">
-                                    Mozilla
+                                    w3schools
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                             </p>
-                        </div>  
+                        </div>
                     </div>
                 </div>
                 <div class="feature-img">
-                    <img src="img/P2-6.png">
-                </div>
-            </div>
-            <div class="br-s"></div>
-            <div class="title-txt">
-                <h1>Ordered List Element</h1>
-            </div>
-            <div class="feature-container">
-                <div class="features">
-                    <div class="feature-desc">
-                        <div class="feature-txt">
-                            <p>
-                                The <span class="point">&#60;ol&#62;</span> HTML element represents an unordered list of items, typically rendered as a bulleted list.
-                            </p>
-                            <br>
-                            <p>
-                                You can nest a <span class="point">&#60;li&#62;</span>(List Element) to create a hollow bulleted list.
-                            </p>
-                            <br>
-                            <p style="font-size: 12px;">
-                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"
-                                    class="link" style="font-size: 12px;">
-                                    Mozilla
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
-                            </p>
-                        </div>  
-                    </div>
-                </div>
-                <div class="feature-img">
-                    <img src="img/P2-7.png">
+                    <img src="img/P3-5.png">
                 </div>
             </div>
         </div>

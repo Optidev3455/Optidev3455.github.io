@@ -11,6 +11,7 @@
   --light-blue: #83bfff;
   --white: #fff;
   --neon-green: #90e4dc;
+  --red: #ff5555;
 }
 
 ::selection {
@@ -77,6 +78,10 @@ html {
 
 .br-s {
   margin-top: 10vh;
+}
+
+.point {
+  color: var(--red);
 }
 
 /**========== Main Styles End ==========**/
