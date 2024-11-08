@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>WWS Computer Club - P4</title>
+</head>
+
+<body>
+
+    <div id="preload">
+        <!-- Head Display Start -->
+        <div class="bg half">
+
+            <!-- Sticky Navbar Desktop Only Start -->
+            <div class="header sticky">
+                <a href="index.html" class="logo" id="fadeOutLink">Computer Club</a>
+                <nav class="navBar">
+                    <div class="wrapper">
+                        <a href="index.html" id="fadeOutLink">HOME</a><!--     // Required to remove excess spacing between elements
+                    --><a href="post.html" id="fadeOutLink">POSTS</a><!--
+                    --><a href="https://intra.ychwwsss.edu.hk/home/eService/enrollment/">SCHEDULE</a><!--
+                    --><a href="https://github.com/Optidev3455/CC2425">PROJECTS</a>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Sticky Navbar Desktop Only End -->
+            <div class="start-txt">
+                <h1>CSS Basics</h1>
+            </div>
+        </div>
+        <!-- Head Display End -->
+
+        <!-- Burger Menu Mobile Only Start-->
+        <div id="burger" class="sticky">
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="fadeOutLink">HOME</a></li>
+                    <li><a href="post.html" id="fadeOutLink">POSTS</a></li>
+                    <li><a href="https://intra.ychwwsss.edu.hk/home/eService/enrollment/">SCHEDULE</a></li>
+                    <li><a href="https://github.com/Optidev3455/CC2425">PROJECTS</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="burger-btn" class="sticky">
+            <i class="fa-solid fa-bars fa-xl" id="menu"></i>
+        </div>
+        <!-- Burger Menu End -->
+
+        <!-- Post Start -->
+
+        <!-- Using already made css cuz im lazy -->
+        <div id="todo">
+            <div class="title-txt">
+                <p>
+                    <i class="fa-regular fa-calendar-days"></i> 14-11-2024
+                </p>
+                <h1>Extension on CSS</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <h1>TL;DR</h1>
+                    <div class="feature-desc">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="feature-txt">
+                            <p>
+                                hover, transition, media query, keyframe
+                            </p>
+                        </div>
+                    </div>
+                    <h1>Overview</h1>
+                    <div class="feature-desc">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="feature-txt">
+                            <p>
+                                The essential CSS properties for web development which almost 
+                                every website uses, these properties will make your website more 
+                                clean.
+                            </p>
+                        </div>
+                    </div>
+                    <h1>Links</h1>
+                    <div class="feature-desc">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+                        <div class="feature-txt">
+                            <p>
+                                Learn more about CSS:
+                                <a href="https://www.w3schools.com/css/" class="link">
+                                    W3Schools
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>.
+                                <br>
+                                Mozilla Developer Reference:
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="link">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> 
+                                </a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/post3.png" style="width: 50%;">
+                </div>
+            </div>
+            <div class="br-l"></div>
+            <div class="title-txt">
+                <h1>Hover</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The <span class="point">:hover</span> pseudo-class matches when the user interacts with an 
+                                element with a pointing device, but does not necessarily activate it. 
+                            </p>
+                            <br>
+                            <p>
+                                It is generally triggered when the user hovers over an element with the cursor (mouse pointer).
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a
+                                    href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P4-1.gif">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Transition</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                
+                            </p>
+                            <br>
+                            <p>
+                                The <span class="point">transition</span> CSS property enable you to define the transition between two states of an element.
+                            </p>
+                            <br>
+                            <p>
+                                You <span class="point">must</span> assign a time value to the <span class="point">transition</span> property in order to use it.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P4-2.gif">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Media Query</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The <span class="point">@media</span> or media queries allow you to apply CSS styles depending on a device's media type (such as print vs. screen)
+                            </p>
+                            <br>
+                            <p>
+                                You can use other features or characteristics such as screen resolution or orientation, 
+                                aspect ratio, browser viewport width or height, user preferences such as 
+                                preferring reduced motion, data usage, or transparency.
+                            </p>
+                            <br>
+                            <p>
+                                This is the main CSS property to create responsive web design.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px; padding-top: 5px;">The following image will change size based on your 
+                                device display width.</p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Credits: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries"
+                                    class="link" style="font-size: 12px;">
+                                    Mozilla
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P4-3a.png" class="pc-view">
+                    <img src="img/P4-3b.png" class="mobile-view">
+                </div>
+            </div>
+            <div class="br-s"></div>
+            <div class="title-txt">
+                <h1>Keyframes</h1>
+            </div>
+            <div class="feature-container">
+                <div class="features">
+                    <div class="feature-desc">
+                        <div class="feature-txt">
+                            <p>
+                                The <span class="point">@keyframes</span> CSS at-rule controls the intermediate steps in a 
+                                CSS animation sequence by defining styles for keyframes (or waypoints) along the animation sequence.
+                            <br>
+                            <p>
+                                You <span class="point">must</span> assign a name to the name of your keyframe.
+                            </p>
+                            <br>
+                            <p style="font-size: 12px;">
+                                Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes"
+                                    class="link" style="font-size: 12px;">
+                                    w3schools
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="img/P4-4.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Post End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Meeting Time</h1>
+                <p>
+                    Every two Thursdays -
+                    Lunch Recess at MMLC
+                </p>
+            </div>
+            <div class="footer-right">
+                <h1>Contact Us</h1>
+                <a>Classrooms: 5A (Room 501), 5C (Room 503)</a>
+                <br>
+                <a>Email:</a>
+                <a href="mailto:2425wwscc@gmail.com" class="link">
+                    2425wwscc@gmail.com
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/Optidev3455"><i class="fa-brands fa-github"></i></a>
+            <p>&copy; Optidev3455 All Rights Reserved.</p>
+        </div>
+    </div>
+    <!-- Footer End -->
+    </div>
+</body>
+
+<script src="script.js"></script>
+<script src="animate.js"></script>
+
+</html>

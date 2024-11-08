@@ -84,6 +84,27 @@ html {
   color: var(--red);
 }
 
+@media screen and (min-width: 769px) {
+  .pc-view {
+    opacity: 1;
+  }
+  
+  .mobile-view {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pc-view {
+    display: none;
+  }
+
+  .mobile-view {
+    opacity: 1;
+  }
+}
+
+
 /**========== Main Styles End ==========**/
 
 /**========== Head Styles End ==========**/
